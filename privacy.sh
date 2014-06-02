@@ -36,7 +36,7 @@ else
 	echo ''
 	echo 'Getting (6/6)'
 	echo ''
-	curl "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=dnsmasq&showintro=0&mimetype=plaintext" >> /etc/hosts
+	curl "http://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext" >> /etc/hosts
 	echo ''
 	echo 'All Files are downloaded'
 	echo ''
