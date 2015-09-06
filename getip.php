@@ -48,7 +48,7 @@
         
     }
     
-    fclose($ips);
+    fclose($ipsfile);
     fclose($iptables);
 
 ?>
